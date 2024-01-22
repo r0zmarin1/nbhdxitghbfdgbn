@@ -1,0 +1,46 @@
+﻿<Window x:Class="aaaaaaaaaaaaa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aaaaaaaaaaaaa"
+        mc:Ignorable="d"
+        Title="помогите" Height="1080" Width="1920" Background="LightPink" FontFamily="Candara Light">
+    <Grid Margin="150,40,150,30">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="VIEW MY LEAVE" Grid.ColumnSpan="8" FontSize="50" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Label Content="Date of submission" Grid.ColumnSpan="2" Grid.Row="1" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="2" Margin="0,10,0,10"/>
+        <Label Content="Employee Name" Grid.ColumnSpan="2" Grid.Row="2" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="2" Margin="0,10,0,10"/>
+        <Label Content="Employee Designation" Grid.ColumnSpan="2" Grid.Row="3" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="2" Margin="0,10,0,10"/>
+        <Label Content="Type of leave" Grid.ColumnSpan="2" Grid.Row="4" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="4" Grid.Column="2" Margin="0,10,0,10"/>
+    </Grid>
+</Window>
