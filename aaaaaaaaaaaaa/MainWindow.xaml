@@ -22,6 +22,9 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -32,8 +35,9 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Content="VIEW MY LEAVE" Grid.ColumnSpan="8" FontSize="50" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Label Content="VIEW MY LEAVE" Grid.ColumnSpan="9" FontSize="45" HorizontalContentAlignment="Center"  Foreground="White" VerticalAlignment="Center"/>
         <Label Content="Date of submission" Grid.ColumnSpan="2" Grid.Row="1" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
         <TextBox Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="2" Margin="0,10,0,10"/>
         <Label Content="Employee Name" Grid.ColumnSpan="2" Grid.Row="2" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
@@ -42,5 +46,27 @@
         <TextBox Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="2" Margin="0,10,0,10"/>
         <Label Content="Type of leave" Grid.ColumnSpan="2" Grid.Row="4" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
         <TextBox Grid.ColumnSpan="2" Grid.Row="4" Grid.Column="2" Margin="0,10,0,10"/>
+        <Label Content="Supervisor In-Charge" Grid.ColumnSpan="2" Grid.Row="5" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="2" Margin="0,10,0,10"/>
+        <Label Content="Start Date" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="1" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="7" Margin="0,10,0,10"/>
+        <Label Content="End Date" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="2" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="7" Margin="0,10,0,10"/>
+        <Label Content="Total Days" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="3" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="7" Margin="0,10,0,10"/>
+        <Label Content="My Comment" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="4" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Row="4" Grid.Column="7" Margin="0,10,0,10"/>
+        <Label Content="Search by:" Grid.Row="7" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="7" Grid.Column="1" Margin="0,10,0,10"/>
+        <Button Content="Search Listing" FontSize="23" Background="White" Grid.Row="7" Grid.Column="2" Margin="10,5,10,10"/>
+        <Button Content="View My MC" FontSize="23" Background="White" Grid.ColumnSpan="2" Grid.Row="7" Grid.Column="3" Margin="10,5,110,10"/>
+        <Button Content="View HR comment" FontSize="23" Background="White"  Grid.Row="7" Grid.Column="6" Margin="0,0,10,0"/>
+        <Button Content="View Supervisor comment" FontSize="23" Background="White"  Grid.Row="7" Grid.Column="7" Margin="0,0,10,0"/>
+        <Button Content="View Office MGR comment" FontSize="23" Background="White"  Grid.Row="7" Grid.Column="8"  Margin="0,0,10,0"/>
+        <TextBox Grid.ColumnSpan="9" Grid.RowSpan="4" Grid.Row="8"  Margin="0,10,0,10"/>
+        <Label Content="Leave Taken" Grid.Row="12" FontSize="30" Foreground="White" VerticalAlignment="Center"/>
+
+        <Button Content="Back" FontSize="40" Background="White"  Grid.Row="16" Grid.Column="4"  Margin="10,5,10,0"/>
+
     </Grid>
 </Window>
